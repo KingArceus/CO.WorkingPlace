@@ -1,4 +1,5 @@
 import React from "react";
+import IndexBackground from "/img/index-background.jpg";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
@@ -14,7 +15,7 @@ function Images() {
             <Col md="12">
               <div className="hero-images-container">
                 <img
-                  src="assets/img/index-background.jpg"
+                  src={IndexBackground}
                 ></img>
               </div>
               <div className="hero-images-container-1">
